@@ -1,0 +1,9 @@
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.app
+build/
+.vscode/
+*.swp

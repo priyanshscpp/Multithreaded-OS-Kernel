@@ -1,9 +1,12 @@
-#ifndef PARSER_H_INCLUDED
-#define PARSER_H_INCLUDED
-
+#include <linux/limits.h>
 #include <bits/stdc++.h>
 
 using namespace std;
+
+#ifndef PARSER_H_INCLUDED
+#define PARSER_H_INCLUDED
+
+
 
 /** This file handles parsing the data we are going to work with **/
 /** It also holds all the global variables we parse into         **/
@@ -39,6 +42,7 @@ void parse_algorithms(string algorithm_chunk)
         algorithms.push_back( make_pair(algorithm_id, quantum) );
     }
 }
+
 
 void parse_processes()
 {
