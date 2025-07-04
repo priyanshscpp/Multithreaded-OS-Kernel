@@ -1,4 +1,8 @@
-# CPU-Scheduling-Algorithms
+# CPU-Scheduling-Algorithms  
+![Profile Views](https://komarev.com/ghpvc/?username=priyanshscpp&color=blue)  
+
+![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge&logo=verizon)  
+
 An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
 
 ## Table of Contents
@@ -12,7 +16,6 @@ An implementation of various CPU scheduling algorithms in C++. The algorithms in
     - [Feedback (FB)](#feedback-fb)
     - [Feedback with varying time quantum (FBV)](#feedback-with-varying-time-quantum-fbv)
     - [Aging](#aging)
-  - [Installation](#installation)
   - [Input Format](#input-format)
  
 
@@ -89,16 +92,6 @@ the following steps.
     - The scheduler choses the highest priority process from among all the eligible processes.
 
 - Note that during each call to the scheduler, the complete ready list has to be traversed.
-## Installation
-1- Clone the repository
-
-2- Install g++ compiler and make
-```bash
-sudo apt-get install g++ make
-```
-3- Compile the code using `make` command
-
-4- Run the executable file
 
 ## Input Format
 - Line 1: "trace" or "stats"
