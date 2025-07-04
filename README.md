@@ -8,6 +8,14 @@
 
 An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
 
+
+## What is it?
+
+A C++ project implementing classic CPU scheduling algorithms for simulation, analysis, and educational purposes. Includes FCFS, RR, SPN, SRT, HRRN, Feedback, and Aging. Outputs both trace and statistical results.
+
+---
+
+
 ## Table of Contents
 - [CPU-Scheduling-Algorithms](#cpu-scheduling-algorithms)
   - [Algorithms](#algorithms)
@@ -21,6 +29,28 @@ An implementation of various CPU scheduling algorithms in C++. The algorithms in
     - [Aging](#aging)
   - [Input Format](#input-format)
  
+
+
+## Highlights of functionality
+
+*   Simulates multiple CPU scheduling algorithms:
+    - FCFS, RR, SPN, SRT, HRRN, FB-1, FB-2i, Aging
+*   Supports both trace and statistical output modes
+*   Customizable input format for flexible experimentation
+*   Easily extensible for new algorithms or features
+*   Unit tests using Google Test
+*   Ready for CI/CD with GitHub Actions
+
+---
+
+## Extending the Project
+
+- Add new scheduling algorithms in `main.cpp/` and update the main driver.
+- Add new tests in `test/` using Google Test.
+- Update the makefile as needed.
+
+---
+
 
 ## Algorithms
 
