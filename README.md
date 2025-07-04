@@ -29,7 +29,7 @@ A C++ project implementing classic CPU scheduling algorithms for simulation, ana
   - [Input Format](#input-format)
  
 
-## Demo of the Project on my Ubuntu LTS 24.04 System
+## Demo of Project on my Ubuntu LTS 24.04 Machine
 
 ![alt text](docs/project.gif)
 
