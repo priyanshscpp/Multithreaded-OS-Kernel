@@ -2,8 +2,8 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=priyanshscpp&color=blue)  
 
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge&logo=verizon)  
-
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code Coverage](https://codecov.io/gh/priyanshscpp/Multithreaded-OS-Kernel/branch/main/graph/badge.svg)](https://codecov.io/gh/priyanshscpp/Multithreaded-OS-Kernel)
 
 An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
 
