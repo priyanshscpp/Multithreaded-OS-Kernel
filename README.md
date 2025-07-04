@@ -43,6 +43,68 @@ A C++ project implementing classic CPU scheduling algorithms for simulation, ana
 ---
 
 
+### **🔍 Why does this project exist?**
+
+In operating systems, **CPU scheduling** determines the order in which processes run. Understanding scheduling behavior is critical for performance tuning, fairness, and responsiveness in multitasking environments.
+
+Most educational resources cover only theory. This tool fills the gap with **practical, visualizable implementations** of widely taught scheduling strategies.
+
+
+### **🎯 Gaps it fills**
+
+
+
+* Provides **ready-to-run** implementations of key scheduling algorithms in C++. \
+
+* Offers **detailed trace outputs** and **statistical metrics** for analysis and comparison. \
+
+* Can be used for **benchmarking**, **teaching**, or integrating into **simulator pipelines**. \
+
+
+
+### **🐞 What kinds of "bugs" or problems it can highlight?**
+
+
+
+* Starvation in SPN or SRT 
+
+* Unfairness in Round Robin 
+
+* Delayed responses in FCFS 
+
+* Priority inversion issues 
+
+* Aging effectiveness in starvation prevention 
+
+* Response time and turnaround anomalies
+
+
+## **⚡ Quickstart & Demo**
+
+
+### **🛠️ One-Liner Setup**
+
+
+####    Go to docs/installation for easy setup of the project
+####          Video Demonstration
+
+
+
+## **📊 Metrics & Impact**
+
+
+
+* Tested with **30+ custom process sets** mimicking real workloads \
+
+* Found interesting scheduling tradeoffs: \
+
+    * **SPN** and **SRT** minimize turnaround but may starve longer jobs \
+
+    * **Feedback** adapts well under burst-heavy loads \
+
+* Performance benchmark: \
+
+    * ⏱️ **Avg simulation time** per run: ~1.2 ms (on Intel i5, no I/O delay)
 
 ## Algorithms
 
