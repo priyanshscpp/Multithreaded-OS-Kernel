@@ -82,17 +82,6 @@ Most educational resources cover only theory. This tool fills the gap with **pra
 * Response time and turnaround anomalies
 
 
-## **⚡ Quickstart & Demo**
-
-
-### **🛠️ One-Liner Setup**
-
-
-####    Go to docs/installation for easy setup of the project
-####          Video Demonstration
-
-
-
 ## **📊 Metrics & Impact**
 
 
