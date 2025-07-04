@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# run.sh - Script to build and run the project with Google Test support on Linux systems
 set -e
 
 echo "Installing dependencies..."
