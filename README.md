@@ -3,6 +3,10 @@
 
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge&logo=verizon)  
 
+![License](https://img.shields.io/github/license/priyanshscpp/CPU-Scheduling-Algorithms?style=for-the-badge)
+
+![Last Commit](https://img.shields.io/github/last-commit/priyanshscpp/CPU-Scheduling-Algorithms?style=for-the-badge)
+
 An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
 
 ## Table of Contents
