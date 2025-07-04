@@ -3,7 +3,6 @@
 
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge&logo=verizon)  
 
-![License](https://img.shields.io/github/license/priyanshscpp/CPU-Scheduling-Algorithms?style=for-the-badge)
 
 
 An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
@@ -43,13 +42,6 @@ A C++ project implementing classic CPU scheduling algorithms for simulation, ana
 
 ---
 
-## Extending the Project
-
-- Add new scheduling algorithms in `main.cpp/` and update the main driver.
-- Add new tests in `test/` using Google Test.
-- Update the makefile as needed.
-
----
 
 
 ## Algorithms
@@ -156,6 +148,33 @@ entered as 2-4 means Round Robin with q=4. Also, policy 8-1 means Aging with q=1
     3- Priority
 - Processes are assumed to be sorted based on the arrival time. If two processes have the same arrival time, then the one with the lower priority is assumed to arrive first.
 
+## Extending the Project
+
+- Add new scheduling algorithms in `main.cpp/` and update the main driver.
+- Add new tests in `test/` using Google Test.
+- Update the makefile as needed.
+
+---
 
 
 
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## Author
+
+**Priyanshu Yadav**  
+[GitHub: priyanshscpp](https://github.com/priyanshscpp)
+
+
+---
+
+## Copyright
+
+&copy; 2025 Priyanshu Yadav (priyanshscpp).  
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
