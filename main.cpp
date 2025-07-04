@@ -1,7 +1,14 @@
+#include <linux/limits.h>
+#include <unistd.h>
+#include <sys/types.h>
 #include <bits/stdc++.h>
 #include "parser.h"
 
+
+
 #define all(v) v.begin(), v.end()
+#define ll long long
+
 
 using namespace std;
 
@@ -522,6 +529,8 @@ void execute_algorithm(char algorithm_id, int quantum,string operation)
     }
 }
 
+
+/* Main Function of the CPU Scheduling Algorithm */
 int main()
 {
     parse();
