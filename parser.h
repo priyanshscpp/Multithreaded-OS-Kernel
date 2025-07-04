@@ -1,3 +1,8 @@
+// This file is part of the CPU Scheduling Algorithms project.
+// Copyright (c) 2025 Priyanshu Yadav (priyanshscpp)
+// SPDX-License-Identifier: MIT
+// File: parser.h
+
 #include <linux/limits.h>
 #include <bits/stdc++.h>
 
